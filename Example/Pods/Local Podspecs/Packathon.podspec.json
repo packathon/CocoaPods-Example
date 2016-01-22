@@ -1,0 +1,25 @@
+{
+  "name": "Packathon",
+  "version": "0.1.0",
+  "summary": "A short description of Packathon.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Packathon",
+  "license": "MIT",
+  "authors": {
+    "Ilter Cengiz": "iltercengiz@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Packathon.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "Packathon": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

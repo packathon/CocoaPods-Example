@@ -1,0 +1,6 @@
+framework module Packathon {
+  umbrella header "Packathon-umbrella.h"
+
+  export *
+  module * { export * }
+}

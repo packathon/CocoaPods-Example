@@ -7,23 +7,24 @@
 //
 
 #import "PCKViewController.h"
+#import <Packathon/PCKPackathon.h>
 
 @interface PCKViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
 @implementation PCKViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    PCKPackathon *packathon = [PCKPackathon new];
+    self.label.text = [packathon greetTheAudience];
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
