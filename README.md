@@ -99,10 +99,36 @@ Sonrasında bileğimize kuvvet geliştirme. :) Biraz uğraş sonrasında sonuç:
 
 ![sonuç](Images/Sonuç.png)
 
-## Bonus
+## Kütüphanenin doğrulanması
+
+	$ pod lib lint
+
+Bize yardımcı olacak komutumuz bu. `Packathon` dizinimizde bu komutu çalıştırdığımız zaman `pod` komutu oluşturduğumuz kütüphaneyi yine aynı dizindeki `Packathon.podspec` dosyasındaki tanımlara uyup uymadığını kontrol eder ve bir hata varsa bize bildirir.
+
+![Lint](Images/Lint.png)
+
+Mesela burada podspec dosyamızda kütüphanemiz için tanım girmediğimizi söylüyor. İlgili hataları giderdiğimizde sonuç:
+
+![LintSonuç](Images/LintSonuç.png)
+
+## Test
 
 Kütüphanemiz için testlerimizi de yazdık. (yazdık dimi?!) E bide bunu bir continuous integration sunucusu test etsin.
 
 Testlerimizi [Travis-CI](https://travis-ci.org) üzerinde koşmak istersek tek yapmamız gereken Git repo’muzda bir `.travis.yml` dosyası oluşturmak ve Travis-CI üzerinde bu repo’muza erişim izni vermek. 
 
 Sonrasında projemiz üzerinde çalışıp, her bir commit’imizi repo’muza aldığımızda Travis-CI bizim için testlerimizi koşacak ve başarısız olan bir sonuç olması durumunda bize haber verecek. :)
+
+## Kütüphanemizin yayınlanması
+
+CocoaPods’un güzelliklerinden birisi de oluşturduğunuz kütüphanenizi hızlıca yayınlayabilmeniz.
+
+	$ pod trunk register
+
+komutu ile daha önceden yapmadıysanız CocoaPods trunk’a kaydolun. Basitçe e-posta adresiniz ve adınız gibi bilgiler soracaktır. Sonrasında: 
+
+	$ pod trunk push
+
+diyerek oluşturduğunuz kütüphanenizin binlerce pod arasında yer almasını sağlayabilirsiniz. :)
+
+İyi hacklemeler! :)

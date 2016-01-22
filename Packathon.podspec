@@ -9,24 +9,25 @@
 Pod::Spec.new do |s|
   s.name             = "Packathon"
   s.version          = "0.1.0"
-  s.summary          = "A short description of Packathon."
+  s.summary          = "Packathon için oluşturulmuş örnek CocoaPods projesi."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+#   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description      = <<-DESC
+                       Packathon için oluşturulmuş örnek CocoaPods projesi. Örnek proje ve kütüphane için testler içerir.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/Packathon"
+  s.homepage         = "https://github.com/packathon/CocoaPods-Example"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Ilter Cengiz" => "iltercengiz@yahoo.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/Packathon.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/packathon/CocoaPods-Example.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
