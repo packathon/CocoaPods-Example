@@ -125,7 +125,7 @@ CocoaPods’un güzelliklerinden birisi de oluşturduğunuz kütüphanenizi hız
 
 	$ pod trunk register
 
-komutu ile daha önceden yapmadıysanız CocoaPods trunk’a kaydolun. Basitçe e-posta adresiniz ve adınız gibi bilgiler soracaktır. Sonrasında: 
+komutu ile daha önceden yapmadıysanız [CocoaPods trunk’a](https://guides.cocoapods.org/making/getting-setup-with-trunk.html) kaydolun. Basitçe e-posta adresiniz ve adınız gibi bilgileri . Sonrasında: 
 
 	$ pod trunk push
 
