@@ -77,9 +77,15 @@ komutu ile birlikte açılan Xcode projemize dönüyoruz. Sol tarafta açık ola
 
 	Development Pods > Packathon > Pod > Classes
 
-gruplarını açtığımızda `ReplaceMe.m` adında bir sınıf göreceğiz. Tam da bize dediğini yapacağız. :) `Classes` grubuna sağ tıklayarak `New File…` diyoruz ve ilk sınıfımızı oluşturuyoruz. 
+gruplarını açtığımızda `ReplaceMe.m` adında bir sınıf göreceğiz. 
+
+![Project navigator](Images/Project_navigator.png)
+
+Tam da bize dediğini yapacağız. :) `Classes` grubuna sağ tıklayarak `New File…` diyoruz ve ilk sınıfımızı oluşturuyoruz. 
 
 Sınıfı oluştururken `Targets` kısmında kendi kütüphanemizin seçili olduğundan emin olun.
+
+![Targets](Images/Targets.png)
 
 Artık `ReplaceMe.m` dosyasını da silebiliriz. :)
 
@@ -91,7 +97,7 @@ Bu komut az önce oluşturduğumuz sınıfımızı örnek projemize entegre eden
 
 Sonrasında bileğimize kuvvet geliştirme. :) Biraz uğraş sonrasında sonuç:
 
-[!image](Images/Sonuç.png)
+![sonuç](Images/Sonuç.png)
 
 ## Bonus
 
