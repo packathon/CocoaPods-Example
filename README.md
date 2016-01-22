@@ -51,14 +51,17 @@ Sonrasında verdiğimiz cevaplar doğrultusunda `pod` gerekli kurulumu yapacakt�
 
 Oluşturulan Packathon dizinine gittiğimizde şu içeriği göreceğiz:
 
+```
 |--|--|
 | Example/ | Örnek uygulamamızın ve oluşturduğumuz kütüphanenin de bağlanmış olduğu Xcode projemizin dizini |
 | Pod/ | Bizim oluşturacağımız kütüphanemizin kaynak kodları ve diğer gereksinimlerinin bulunduğu dizin |
 | Packathon.podspec | Geliştireceğimiz kütüphanenin diğer kullanıcılar tarafından kullanılmasını sağlayacak olan ve kütüphanemizle ilgili bilgiler içeren dosya |
 | LICENSE | Kütüphanemiz için belirlediğimiz lisans türü ve koşulları |
+```
 
 Ana dizinle birlikte bir kaç önemli alt dizine de değinmek gerekirse:
 
+```
 |--|--|
 | Pod/Classes/ | Kütüphanemiz için oluşturacağımız kaynak kodlarımızın bulunacağı dizin |
 | Pod/Assets/ | Kütüphanemizde kullanacağımız görsel, ses, vb gereksinimlerin yerleştirileceği dizin |
@@ -66,6 +69,7 @@ Ana dizinle birlikte bir kaç önemli alt dizine de değinmek gerekirse:
 | Example/Tests/ | Örnek uygulamamız ve kütüphanemiz için yazdığımız testlerin bulunduğu dizin |
 | Example/Pods/ | Kendi kütüphanemiz ile birlikte diğer gereksinim duyulan pod’ların yüklendiği dizin. Burası ile doğrudan etkileşimde bulunmuyoruz. |
 | Example/Podfile | Kendi kütüphanemizle birlikte diğer gereksinim duyulan pod’ların yüklenmesi için tanımlanan dosya. |
+```
 
 ## Geliştirme
 
@@ -109,7 +113,7 @@ Bize yardımcı olacak komutumuz bu. `Packathon` dizinimizde bu komutu çalışt
 
 Mesela burada podspec dosyamızda kütüphanemiz için tanım girmediğimizi söylüyor. İlgili hataları giderdiğimizde sonuç:
 
-![LintSonuc](Images/LintSonuç.png)
+![LintSonuc](Images/LintSonuç.png)
 
 ## Test
 
