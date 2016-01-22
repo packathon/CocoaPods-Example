@@ -109,7 +109,7 @@ Bize yardımcı olacak komutumuz bu. `Packathon` dizinimizde bu komutu çalışt
 
 Mesela burada podspec dosyamızda kütüphanemiz için tanım girmediğimizi söylüyor. İlgili hataları giderdiğimizde sonuç:
 
-![LintSonuç](Images/LintSonuç.png)
+![LintSonuc](Images/LintSonuç.png)
 
 ## Test
 
